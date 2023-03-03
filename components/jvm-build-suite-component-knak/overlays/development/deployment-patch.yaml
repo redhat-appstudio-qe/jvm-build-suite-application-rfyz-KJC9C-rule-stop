@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-knak
+  namespace: jvm-build-zsyo-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:9456c867139adce17eb0fa6fb171cfa004c80d5368ac899e2006eb78a7a2fe17
+        name: container-image
+        resources: {}
+status: {}
