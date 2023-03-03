@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-knak
     app.kubernetes.io/part-of: jvm-build-suite-application-rfyz
-  name: jvm-build-suite-componentlto4
+  name: jvm-build-suite-componentik2d
   namespace: jvm-build-zsyo-tenant
 spec:
   port:
